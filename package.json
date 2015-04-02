@@ -1,11 +1,12 @@
 {
   "name": "hapi-overriding",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Override HTTP verbs",
   "main": "index.js",
   "scripts": {
     "test": "lab -r console -t 100 -a code",
-    "test-cov-html": "lab -r html -o coverage.html -a code"
+    "test-cov-html": "lab -r html -o coverage.html -a code",
+    "test-cov-lcov": "lab -r lcov > lcov.info"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "joi": ">=6"
   },
   "dependencies": {
+    "coveralls": "^2.11.2",
     "hoek": "^2.12.0",
     "joi": "^6.0.8"
   }
