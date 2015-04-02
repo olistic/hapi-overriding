@@ -2,6 +2,8 @@
 
 **hapi-overriding** is a [hapi](https://github.com/hapijs/hapi) plugin that allows you to override the method of an incoming request, using HTTP verbs such as PUT and DELETE in places where the client doesn't support it. This package was inspired in [hapi-method-override](https://github.com/ubaltaci/hapi-method-override).
 
+[![Build Status](https://travis-ci.org/moliveraf/hapi-overriding.svg?branch=master)](https://travis-ci.org/moliveraf/hapi-overriding)
+
 ## Install
 
 ```sh
