@@ -11,6 +11,10 @@ node_js:
   - "0.12"
   - iojs
 
+script: "npm run-script test-cov-lcov"
+
+after_script: "cat lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+
 deploy:
   provider: npm
   email: m@matioli.me
