@@ -29,6 +29,7 @@
   "homepage": "https://github.com/moliveraf/hapi-overriding",
   "devDependencies": {
     "code": "^1.4.0",
+    "coveralls": "^2.11.2",
     "hapi": "^8.4.0",
     "lab": "^5.5.1"
   },
@@ -37,7 +38,6 @@
     "joi": ">=6"
   },
   "dependencies": {
-    "coveralls": "^2.11.2",
     "hoek": "^2.12.0",
     "joi": "^6.0.8"
   }
