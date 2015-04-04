@@ -1,6 +1,6 @@
 {
   "name": "hapi-overriding",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Override HTTP verbs",
   "main": "index.js",
   "scripts": {
