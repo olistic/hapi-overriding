@@ -17,6 +17,13 @@ $ npm install hapi-overriding
 
 ## Example
 
+Client-side:
+```html
+<form method="POST" action="/users/507f1f77bcf86cd799439011/destroy">
+  <button type="submit">Delete user</button>
+</form>
+```
+
 Server-side:
 ```javascript
 var Hapi = require('hapi');
@@ -38,13 +45,6 @@ server.register(require('hapi-overriding'), function(err) {
 
   server.start();
 });
-```
-
-Client-side:
-```html
-<form method="POST" action="/users/507f1f77bcf86cd799439011/destroy">
-  <button type="submit">Delete user</button>
-</form>
 ```
 
 ## Options
